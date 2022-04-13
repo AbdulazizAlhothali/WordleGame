@@ -10,6 +10,7 @@
 
 
         <TableLayout
+            android:layoutDirection="rtl"
             android:id="@+id/tableLayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -22,6 +23,7 @@
             tools:context=".MainActivity">
 
             <TableRow
+
                 android:id="@+id/row1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -201,6 +203,194 @@
                     android:text=""
                     android:enabled="false"
                     android:textAlignment="center" />
+
+            </TableRow>
+
+            <TableRow
+
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et16"
+                    style="@style/my_button"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="2dp"
+                    android:maxLength="1"
+                    android:text=""
+                    android:enabled="false"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et17"
+                    style="@style/my_button"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="2dp"
+                    android:maxLength="1"
+                    android:text=""
+                    android:enabled="false"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et18"
+                    style="@style/my_button"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="2dp"
+                    android:maxLength="1"
+                    android:text=""
+                    android:enabled="false"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et19"
+                    style="@style/my_button"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="2dp"
+                    android:maxLength="1"
+                    android:text=""
+                    android:enabled="false"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et20"
+                    style="@style/my_button"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="2dp"
+                    android:maxLength="1"
+                    android:text=""
+                    android:enabled="false"
+                    android:textAlignment="center" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et21"
+                    style="@style/my_button"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="2dp"
+                    android:maxLength="1"
+                    android:text=""
+                    android:enabled="false"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et22"
+                    style="@style/my_button"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="2dp"
+                    android:maxLength="1"
+                    android:text=""
+                    android:enabled="false"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et23"
+                    style="@style/my_button"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="2dp"
+                    android:maxLength="1"
+                    android:text=""
+                    android:enabled="false"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et24"
+                    style="@style/my_button"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="2dp"
+                    android:maxLength="1"
+                    android:text=""
+                    android:enabled="false"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et25"
+                    style="@style/my_button"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="2dp"
+                    android:maxLength="1"
+                    android:text=""
+                    android:enabled="false"
+                    android:textAlignment="center" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et26"
+                    style="@style/my_button"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="2dp"
+                    android:maxLength="1"
+                    android:text=""
+                    android:enabled="false"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et27"
+                    style="@style/my_button"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="2dp"
+                    android:maxLength="1"
+                    android:text=""
+                    android:enabled="false"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et28"
+                    style="@style/my_button"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="2dp"
+                    android:maxLength="1"
+                    android:text=""
+                    android:enabled="false"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et29"
+                    style="@style/my_button"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="2dp"
+                    android:maxLength="1"
+                    android:text=""
+                    android:enabled="false"
+                    android:textAlignment="center" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/et30"
+                    style="@style/my_button"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="2dp"
+                    android:maxLength="1"
+                    android:text=""
+                    android:enabled="false"
+                    android:textAlignment="center" />
+
             </TableRow>
 
 
