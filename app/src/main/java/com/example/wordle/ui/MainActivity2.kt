@@ -1,9 +1,10 @@
-package com.example.wordle
+package com.example.wordle.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
+import com.example.wordle.R
 import com.example.wordle.databinding.ActivityMain2Binding
 
 class MainActivity2 : AppCompatActivity() {

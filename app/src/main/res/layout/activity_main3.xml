@@ -9,47 +9,47 @@
         tools:context=".ui.MainActivity2">
 
 
-        <TextView
-            android:id="@+id/resultTxt"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="236dp"
-            android:fontFamily="casual"
-            android:text="احسنت"
-            android:textColor="#FFD200"
-            android:textSize="48sp"
+        <ImageView
+            android:layout_width="402dp"
+            android:layout_height="453dp"
+            android:src="@drawable/myproject"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/theWord"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
-            android:fontFamily="casual"
-            android:textAlignment="center"
-            android:textColor="#FFD200"
-            android:textSize="48sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@id/resultTxt" />
-
         <Button
-            android:id="@+id/replayBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="53dp"
+            android:id="@+id/playBtn"
+            android:layout_width="197dp"
+            android:layout_height="62dp"
             android:backgroundTintMode="src_in"
             android:fontFamily="casual"
-            android:text="لعب مرة اخرى"
-            android:textColor="#363752"
             android:textSize="25sp"
+            android:text="العب الان"
+            android:textColor="#363752"
+
             app:backgroundTint="#FFD200"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/theWord"
-            app:layout_constraintVertical_bias="0.175" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.449" />
+
+        <Button
+            android:id="@+id/addWord"
+            android:layout_width="197dp"
+            android:layout_height="62dp"
+            android:backgroundTintMode="src_in"
+            android:fontFamily="casual"
+            android:text="اضافة كلمة جديدة"
+            android:textColor="#363752"
+            android:textSize="25sp"
+
+            app:backgroundTint="#FFD200"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.563" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
