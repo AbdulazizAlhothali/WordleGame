@@ -20,7 +20,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:context=".MainActivity">
+            tools:context=".ui.MainActivity">
 
             <TableRow
 
@@ -32,6 +32,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et1"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -42,6 +43,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et2"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -52,6 +54,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et3"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -62,6 +65,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et4"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -72,6 +76,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et5"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -89,6 +94,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et6"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -100,6 +106,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et7"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -111,6 +118,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et8"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -122,6 +130,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et9"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -133,6 +142,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et10"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -152,6 +162,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et11"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -163,6 +174,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et12"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -174,6 +186,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et13"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -185,6 +198,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et14"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -196,6 +210,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et15"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -216,6 +231,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et16"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -227,6 +243,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et17"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -238,6 +255,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et18"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -249,6 +267,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et19"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -260,6 +279,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et20"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -277,6 +297,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et21"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -288,6 +309,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et22"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -299,6 +321,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et23"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -310,6 +333,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et24"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -321,6 +345,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et25"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -339,6 +364,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et26"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -350,6 +376,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et27"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -361,6 +388,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et28"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -372,6 +400,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et29"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
@@ -383,6 +412,7 @@
                 <androidx.appcompat.widget.AppCompatEditText
                     android:id="@+id/et30"
                     style="@style/my_button"
+                    android:inputType="text"
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="2dp"
