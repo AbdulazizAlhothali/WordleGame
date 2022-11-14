@@ -4,7 +4,7 @@
 
 Guess the word game Arabic version.
 
-### :bulb: Libraries Used  
+### :bulb: Libraries and Technologies Used  
 
 -Retrofit: for Rest API
 
