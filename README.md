@@ -10,6 +10,8 @@ Guess the word game Arabic version.
 
 -MVVM Pattern
 
+-Coroutines
+
 -Data Binding
 
 -Dagger Hilt
